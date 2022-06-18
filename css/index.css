@@ -1,7 +1,8 @@
 body {
     font-family: 'Montserrat', sans-serif;
 }
-header{
+
+header {
     background-color: #bbbbbb;
     padding: 20px 0;
     border-bottom: 10px solid #000;
@@ -18,7 +19,7 @@ nav {
     position: absolute;
     top: 110px;
     right: 0;
-    
+
 }
 
 nav li {
@@ -43,128 +44,7 @@ nav a:hover {
 nav a:active {
     color: #ffff00;
 }
-.produtos {
-    width: 940px;
-    margin: 0 auto;
-    padding: 50px 0;
-}
-.produtos li {
-    display: inline-block;
-    text-align: center;
-    width: 30%;
-    vertical-align: top;
-    margin: 0 1.5%;
-    padding: 30px 20px;
-    box-sizing: border-box;
-   border: 2px solid black;
-   border-radius: 10px;
 
-}
-
-.produtos li:hover {
-    border-color: #aa0000;
-   
-}
-
-.produtos li:hover h2 {
-    font-size: 35px;
-}
-
-.produtos li:active {
-    border-color: #ffff00;
-}
-
-.produtos h2 {
-    font-size: 30px;
-    font-weight: bold;
-}
-
-
-.descricao-produto {
-    font-size: 18px;   
-}
-
-.preco-do-produto {
-    font-size: 22px;
-    font-weight: bold;
-    margin-top: 10px;
-}
-
-footer {
-    border-top: 10px solid #aa0000;
-    text-align: center;
-    background: url("../img/backg.jpg");
-    padding: 40px 0;
-}
-
-.copyright {
-    color: white;
-    font-size: 13px;
-    margin-top: 20px;
-
-}
-
-.centralizacao {
-    width: 940px;
-    margin: 0 auto;
-}
-
-form {
-    margin: 40px 0;
-
-}
-
-form label, form legend {
-    display: block;
-    font-size: 20px;
-    margin: 0 0 10px;
-}
-
-.input-padrao, form textarea {
-    display: block;
-    margin: 0 0 20px;
-    padding: 10px 25px;
-    width: 50%;
-}
-
-.checkbox {
-    margin: 20px 0;
-}
-
-.enviar {
-    width: 40%;
-    padding: 15px 0;
-    background-color: #aa0000;
-    color: white;
-    font-weight: bold;
-    font-size: 18px;
-    border: none;
-    border-radius: 5px;
-    transition: 0.8 all;
-    cursor: pointer;
-}
-
-.enviar:hover {
-    background-color: darkred;
-    transform: scale(1.1);
-}
-
-table {
-    margin: 20px 40px;
-}
-
-thead {
-    background-color: #555555;
-    color: #fff;
-    font-weight: bold;
-}
-
-td,th {
-    border: 1px solid black;
-    padding: 10px 15px;
-    text-align: center;
-}
-/* CSS página inicial*/
 .banner {
     width: 100%;
 }
@@ -186,6 +66,7 @@ td,th {
 .main-about {
     padding: 3em 0;
 }
+
 .main-about p {
     margin: 0 0 1em;
 }
@@ -247,6 +128,7 @@ td,th {
     content: "★";
     margin-right: 2px;
 }
+
 .banner-benefits {
     width: 60%;
     opacity: 1;
@@ -263,30 +145,51 @@ td,th {
     margin: 2em auto;
 }
 
+footer {
+    border-top: 10px solid #aa0000;
+    text-align: center;
+    background: url("../img/backg.jpg");
+    padding: 40px 0;
+}
+
+.copyright {
+    color: white;
+    font-size: 13px;
+    margin-top: 20px;
+
+}
+
 @media screen and (max-width: 480px) {
-   .menu {
-      text-align: center;
-      margin: 10px;
-   }
-    .caixa, .section-one, .list-square, .map-content, .benefits-content, .video {
-       width: auto;
-   }
+    .menu {
+        text-align: center;
+        margin: 10px;
+    }
 
-   h1 {
-       text-align: center;
-   }
+    .caixa,
+    .section-one,
+    .list-square,
+    .map-content,
+    .benefits-content,
+    .video {
+        width: auto;
+    }
 
-   nav {
-       position: static;
-   }
+    h1 {
+        text-align: center;
+    }
 
-   .list-square, .banner-benefits {
-       width: 100%;
-   }
+    nav {
+        position: static;
+    }
 
-   .benefits-list {
-       width: 90%;
-       text-align: center;
-       margin-bottom: 20px;
-   }
+    .list-square,
+    .banner-benefits {
+        width: 100%;
+    }
+
+    .benefits-list {
+        width: 90%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
 }
