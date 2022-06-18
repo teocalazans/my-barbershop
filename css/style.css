@@ -264,7 +264,11 @@ td,th {
 }
 
 @media screen and (max-width: 480px) {
-   .caixa, .section-one, .list-square, .map-content, .benefits-content, .video {
+   .menu {
+      text-align: center;
+      margin: 10px;
+   }
+    .caixa, .section-one, .list-square, .map-content, .benefits-content, .video {
        width: auto;
    }
 
@@ -278,5 +282,11 @@ td,th {
 
    .list-square, .banner-benefits {
        width: 100%;
+   }
+
+   .benefits-list {
+       width: 90%;
+       text-align: center;
+       margin-bottom: 20px;
    }
 }
