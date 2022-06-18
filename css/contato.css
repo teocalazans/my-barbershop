@@ -1,0 +1,82 @@
+.centralizacao {
+    width: 940px;
+    margin: 0 auto;
+}
+
+form {
+    margin: 40px 0;
+
+}
+
+form label, form legend {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.input-padrao, form textarea {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.checkbox {
+    margin: 20px 0;
+}
+
+.enviar {
+    width: 40%;
+    padding: 15px 0;
+    background-color: #aa0000;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 0.8 all;
+    cursor: pointer;
+}
+
+.enviar:hover {
+    background-color: darkred;
+    transform: scale(1.1);
+}
+
+table {
+    margin: 20px 40px;
+}
+
+thead {
+    background-color: #555555;
+    color: #fff;
+    font-weight: bold;
+}
+
+td,th {
+    border: 1px solid black;
+    padding: 10px 15px;
+    text-align: center;
+}
+
+@media  screen and (max-width: 480px) {
+    .centralizacao {
+        width: 100vw;
+    }
+
+    .form-escrito {
+        width: auto;
+        margin-left: 10px;
+    }
+
+    #mensagem, #nomesobrenome, #email, #telefone {
+        width: 80%;
+    }
+
+    .enviar {
+       display: block;
+        width: 80%;
+        margin: auto;      
+
+    }
+}
