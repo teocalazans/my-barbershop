@@ -47,13 +47,18 @@
 }
 
 @media screen and (max-width: 480px) {
+    .main, .produtos {
+        width: 100vw;
+    }
     .produtos {
         display: flex;
         flex-direction: column;
+        align-items: center;
     }
 
     .produtos li {
         margin-bottom: 20px;
+        width: 90%;
     }
 
 }
